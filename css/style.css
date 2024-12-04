@@ -125,7 +125,7 @@ body
 }
 .aside
 {
-    width: 270px;
+    width: 235px;
     background: var(--bg-black-100);
     position: fixed;
     left: 0; 
@@ -440,7 +440,7 @@ h3.my-profession
 .about .about-content .education,
 .about .about-content .experience
 {
-    flex: 0 0 47%;
+    flex: 0 0 45%;
     max-width: 50%;
     margin-top: 30px;
 }
@@ -454,8 +454,8 @@ h3.my-profession
 }
 .about .about-content .timeline-box
 {
-    flex: 0 0 95%;
-    max-width: 95%;
+    flex: 0 0 90%;
+    max-width: 90%;
 }
 .about .about-content .timeline
 {
@@ -527,7 +527,7 @@ h3.my-profession
 .service .service-item
 {
     margin-bottom: 30px;
-    flex: 0 0 33.33%;
+    flex: 0 0 30.33%;
     max-width: 33.33%;
 }
 .service .service-item .service-item-inner
@@ -536,4 +536,25 @@ h3.my-profession
     border: 1px solid var(--bg-black-50);
     border-radius: 10px;
     padding: 30px 15px;
+    text-align: center;
+    transition: all 0.35 ease;
+}
+.service .service-item .service-item-inner:hover
+{
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+.service .service-item .service-item-inner .icon
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+.service .service-item .service-item-inner .icon .fa
+{
+    font-size: 40px;
+    line-height: 60px;
+    color: var(--skin-color);
 }
